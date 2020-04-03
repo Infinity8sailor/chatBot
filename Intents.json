@@ -1,0 +1,86 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "Location",
+         "patterns": ["Where is University Located ?", "Where is ADYPU College locateed ?", "Area of ADYPU College", "What's the address of ADYPU College ?", "Location of ADYPU College"],
+         "responses": ["Address:- DY Patil Knowledge City Road Via Lohgaon, Airport Rd, Charholi Budruk, Pune, Maharashtra 412105"]
+        },
+        {"tag": "Sports Facilities",
+         "patterns": ["Sport's facilities of ADYPU","Type's of Sports Facilities"],
+         "responses": ["ADYPU provides sports facilities including facilities to play table tennis, lawn tennis, badminton, swimming, cycling, football and cricket."]
+        },
+        {"tag": "Campus Life",
+         "patterns": ["Infrastructure of ADYPU", "Tell me more about the campus", "What type of Facilities are provided here?" ,"Basic Facilities"],
+         "responses": ["To know more about the campus life here please visit- https://adypu.edu.in/campus-life/"]
+        },
+        {"tag": "Hostel ?",
+         "patterns": ["Is there any hostel facility ?", "Is there any on campus residence facility ?", "Are there hostels ?", "What about hostel facility ?"],
+         "responses": ["Yes hostel facility is avialable here and there are 3 buildings with 4 floors each."]
+        },
+        {"tag": "Programs",
+         "patterns": ["What are all the programs offered in this university ?", "What are all the studying options avialable here ?", "What are the courses avialable here ?", "What can i study here ?", "College courses"],
+         "responses": ["There are total 9 types of schools present here which provide diffrent types of courses.For more details please visit- https://adypu.edu.in/programs/ "]
+        },
+        {"tag": "Admission",
+         "patterns": ["What is the Admission procedure ?", "Which entrace exam is required for admission ?", "Eligibility for Admission"],
+         "responses": ["For admission to this College you need to clear ACET Exam.For more details please visit- https://adypu.edu.in/admissions/how-to-apply/", "The aspiring candidate has to appear for ACET (ADYPU Common Entrance Test).For more details please visit- https://adypu.edu.in/admissions/how-to-apply/"]
+        },
+        {"tag": "Campus Placement",
+         "patterns": ["How is the campus placement ?", "Which companies visit for campus placement ?"],
+         "responses": ["ADYPU Placement Cell aims at building a strong interface between industry and the University for Training and placement of students.Top companies such as Maruti Suzuki, Kohler, Byju's, Tata Motors, etc visit for campus placements.For more information please visit- https://adypu.edu.in/placements/"]
+        },
+        {"tag": "Contact University",
+         "patterns": ["Where can i contact for queries ?", "Where can i contact ?", "Contact Email address", "Contact phone no."],
+         "responses": ["Email Address- acet@adypu.edu.in , Phone Number- +91-8686868686,020-27409842 , Website- www.adypu.edu.in"]
+        },
+        {"tag": "Surrounding Area",
+         "patterns": ["Where do students tend to hang out on and off campus?", "Are there movie theaters and concert venues? What about good cafes for getting work done", "Are there any nice places to visit nearby ?", "Is it easy to get off campus without a car?"],
+         "responses": ["There are many places nearby for eating, hanging out such as Cafe Lovebite, Cafe Durga, London Shakes etc, and also shopping malls , grocery stores are also present nearby."]
+        },
+        {"tag": "Sports",
+         "patterns": ["What type of sports are favoured", "Which sports are played here ?", "Sports played in ADYPU"],
+         "responses": ["Mostly all types of sports are avialable for the student to play such as Cricket, Volleyball, Basketball, Football"]
+        },
+        {"tag": "Security",
+         "patterns": ["How is the security ?", "Security in Campus", "Security for students"],
+         "responses": ["The campus is fully equipped with security cameras on each and every corner of the University including the hostel. Also, there are guards on the entries and exits of the College and all the hostlers have to report at 10 PM for attendance"]
+        }, 
+        {"tag": "Unique",
+         "patterns": ["What is the unique factor in this College", "What leads most students to choose this college?"],
+         "responses": ["ADYPU is knoown as the Innovation University and thats what unique about this University, we encourage our students to be innovative and provide them with tasks to help them to think innovatively"]
+        },
+        {"tag": "Food",
+         "patterns": ["Which type of food is avialable ?", "Food Types", "Is there any Canteen ?"],
+         "responses": ["There are 4 canteens in the University, which are avialableto everyone and they include food types such as North Indian, South Indian, Chinese,etc (Non Vegetarian options are als avialable)"]
+        }
+        ]
+}
+
+
+
+
+   
+
